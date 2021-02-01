@@ -10,7 +10,9 @@
 .classpath
 .project
 .settings/
-target/
+*/target/**
+/target/
+*/target/*
 
 .DS_Store
 
