@@ -1,6 +1,6 @@
 package com.sandeep.problem;
 
-import com.sandeep.com.sandeep.util.LinkedList;
+import com.sandeep.util.LinkedList;
 import com.sandeep.entity.LinkedListNode;
 
 import java.util.Hashtable;

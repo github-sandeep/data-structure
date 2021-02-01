@@ -1,4 +1,4 @@
-package com.sandeep.com.sandeep.util;
+package com.sandeep.util;
 
 import com.sandeep.entity.LinkedListNode;
 
