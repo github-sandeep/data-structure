@@ -1,7 +1,7 @@
-package com.sandeep.problem;
+package com.sandeep.parkinglot.problem;
 
-import com.sandeep.entity.LinkedListNode;
-import com.sandeep.util.LinkedList;
+import com.sandeep.parkinglot.entity.LinkedListNode;
+import com.sandeep.parkinglot.util.LinkedList;
 
 public class AddTwoNumber {
     // Head of list is first digit of number

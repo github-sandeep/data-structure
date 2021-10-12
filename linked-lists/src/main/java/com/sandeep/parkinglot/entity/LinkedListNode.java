@@ -1,4 +1,4 @@
-package com.sandeep.entity;
+package com.sandeep.parkinglot.entity;
 
 public class LinkedListNode<T> {
     T data;

@@ -1,6 +1,6 @@
-package com.sandeep.util;
+package com.sandeep.parkinglot.util;
 
-import com.sandeep.entity.LinkedListNode;
+import com.sandeep.parkinglot.entity.LinkedListNode;
 
 public class LinkedList<T> {
     private LinkedListNode<T> head = null;
