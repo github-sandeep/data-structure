@@ -1,6 +1,6 @@
 package com.sandeep.dp;
 
-public class Knapsack {
+public class KnapsackTopDown {
    private static int knapsackRecur(int val[], int wt[], int W, int index, int n) {
       if(index >= n)
          return 0;
