@@ -45,7 +45,7 @@ public class SortByProperty {
       }
 
       Collections.sort(employees);
-      //Collections.reverse(employees);
+      Collections.reverse(employees);
 
       System.out.println("\nafter sorting: ");
       for(Employee emp : employees) {

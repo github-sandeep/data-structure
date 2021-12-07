@@ -9,7 +9,7 @@ import java.util.Stack;
 
 public class SCC {
    private static void dfsUtil(
-         Graph<Integer> graph, Stack<Integer> stack, Map<Integer, Boolean> visited,
+           Graph<Integer> graph, Stack<Integer> stack, Map<Integer, Boolean> visited,
          Integer vertex) {
       visited.put(vertex, true);
       Set<Integer> neighbours = graph.getNeighbours(vertex);
