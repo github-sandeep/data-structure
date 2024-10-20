@@ -22,6 +22,7 @@
         <module>stacks</module>
         <module>queues</module>
         <module>parkingLot</module>
+        <module>multithreading</module>
     </modules>
 
     <build>
