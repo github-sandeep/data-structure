@@ -13,8 +13,8 @@ public class GenericProducer<T> implements Runnable{
     @Override
     public void run() {
         for(T item : items) {
-            queue.produce(item);
             try {
+                queue.produce(item);
                 sleep(500);
             } catch(InterruptedException ie) {
                 Thread.currentThread().interrupt();

@@ -12,8 +12,8 @@ public class GenericConsumer<T> implements Runnable{
     @Override
     public void run() {
         while(true) {
-            T item = queue.consume();
             try {
+                T item = queue.consume();
                 sleep(1000);
             } catch (InterruptedException e) {
                 Thread.currentThread().interrupt();
